@@ -6,6 +6,7 @@
   "description": "直接读写 Uniwill/Tongfang/AiStone 的 EC 配置。野狗汤姆猫使用自动扫码气不气",
   "plugin_type": "tab",
   "entry": "index.html",
+  "min_host_version": "0.9.3",
   "window": {
     "width": 1180,
     "height": 820,
