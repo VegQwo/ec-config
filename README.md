@@ -1,6 +1,6 @@
 # EC配置刷写插件
 
-OpenRevo 插件：直接读写 **Uniwill / 同方（Tongfang）/ 雷神（AiStone）** 机型的 EC 配置区。
+OpenRevo 插件：直接读写 **Uniwill / Tongfang/ AiStone** 机型的 EC 配置区。
 
 > ⚠️ **这是直接操作嵌入式控制器（EC）内存的工具。改错配置可能导致风扇异常、指示灯异常、性能受限甚至无法开机。动手前请先备份，并确认你知道自己在改什么。**
 
@@ -64,7 +64,7 @@ OpenRevo 插件：直接读写 **Uniwill / 同方（Tongfang）/ 雷神（AiSton
 
 - 同方（Tongfang）模具：耀世、极光、蛟龙等系列
 - Uniwill 模具
-- 雷神（AiStone）部分机型
+- AiStone（也就是现在的同方）
 
 **不支持的机型**：插件会检测 `0xD00` 的首字节，布局不符会明确提示「此 EC 布局未知」，不会盲目写入。
 
