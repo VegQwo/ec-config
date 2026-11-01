@@ -1,0 +1,19 @@
+# 运行时数据
+agent/config/
+*.log
+
+# 开发中间产物
+preview/
+probe/
+_backup_before_sync/
+releases/
+bin/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*

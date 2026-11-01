@@ -1,0 +1,33 @@
+{
+  "id": "ec-config",
+  "name": "EC配置刷写插件",
+  "version": "0.9.1",
+  "author": "VegQwo",
+  "description": "直接读写 Uniwill/Tongfang/AiStone 的 EC 配置。野狗汤姆猫使用自动扫码气不气",
+  "plugin_type": "tab",
+  "entry": "index.html",
+  "window": {
+    "width": 1180,
+    "height": 820,
+    "decorations": true,
+    "skip_taskbar": false,
+    "transparent": false,
+    "resizable": true
+  },
+  "telemetry": {
+    "enabled": false,
+    "desiredIntervalMs": 5000,
+    "sensors": []
+  },
+  "service": {
+    "executable": "agent/shutdown_helper.exe",
+    "args": ["--port", "18946"],
+    "port": 18946,
+    "health_url": "http://127.0.0.1:18946/api/ping",
+    "elevated": false,
+    "auto_start": true,
+    "auto_stop": true,
+    "description": "EC 配置关机辅助服务（仅用于断电重启 EC 固件）"
+  },
+  "permissions": []
+}
