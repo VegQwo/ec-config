@@ -1,7 +1,7 @@
 {
   "id": "ec-config",
   "name": "EC配置刷写插件",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "author": "VegQwo",
   "description": "直接读写 Uniwill/Tongfang/AiStone 的 EC 配置。野狗汤姆猫使用自动扫码气不气",
   "plugin_type": "tab",
